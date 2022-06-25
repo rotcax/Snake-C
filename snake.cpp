@@ -34,7 +34,7 @@ void gotoxy(int x, int y){
 	SetConsoleCursorPosition(hCon, dwPos);
 }
 
-void pintar(){
+void pintar() {
 	
 	//Lineas Horizontales
 	for(int i=2; i<78; i++){
